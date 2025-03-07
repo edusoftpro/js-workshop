@@ -1,2 +1,2 @@
 # js-workshop
-JS fundamentals
+JS_fundamentals
