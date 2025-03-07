@@ -9,3 +9,6 @@ let article = {
         console.log(this.year);
     }
 };
+
+const articleDescr = article.getDescr();
+

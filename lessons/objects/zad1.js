@@ -12,3 +12,16 @@ const obj = {
 
 // Object.freeze(obj);
 // obj.margin = "100px";
+
+
+let article = {
+    journal: 'Math Journal',
+    year: 2020,
+    title: 'Linear function',
+    getDescr: function() {
+       return age;
+    },
+    displayYearInConsole() {
+       //...
+    }
+ }
