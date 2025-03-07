@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <div id='container'>
+            <ul id='fruit-list'>
+                <li id='apple'>Apple</li>
+                <li id='plum'>PLum</li>
+                <li id='banana'>Banana</li>
+                <li id='watermelon'>Watermelon</li>
+            </ul>
+        </div>
+    </body>
+    <script>
+        // st solution
+        // const appleEl = document.getElementById("apple");
+        // appleEl.style.color = "blue";
+        // const watermelonEl = document.getElementById("watermelon");
+        // watermelonEl.style.color = "blue";
+
+        // nd slution
+        // const fruitList = document.getElementById("fruit-list");
+        // const stElFruitList = fruitList.firstElementChild;
+        // stElFruitList.style.color = "blue";
+        // const lastElFruitList = fruitList.lastElementChild;
+        // lastElFruitList.style.color = "blue";
+
+        
+        // rd solution
+        // const fruitList = document.getElementById("fruit-list");
+        // [fruitList.firstElementChild, fruitList.lastElementChild].forEach(
+        //     function changeColor(el) {
+        //         el.style.color = "blue";
+        //     }
+        // )
+        // changeColor(fruitList.firstElementChild)
+        // changeColor(fruitList.lastElementChild)
+
+        const fruitList = document.getElementById("fruit-list");
+        [fruitList.firstElementChild, fruitList.lastElementChild].forEach(el => el.style.color = "blue");
+
+        fruitList.style.border = "1px solid black";
+    </script>
+</html>
